@@ -1,0 +1,11 @@
+DEF torso_lift_joint SliderJoint-
+DEF torso_lift_link Solid=
+children-
+DEF head_pan_joint HingeJoint-
+DEF head_pan_link Solid-children-
+DEF head_tilt_joint HingeJoint-
+DEF head_tilt_link Solid-
+DEF head_plate_frame Solid-
+DEF sensor_mount_link Solid-
+DEF double_stereo_link Solid-
+DEF wide_stereo_l_stereo_camera_frame Solid
